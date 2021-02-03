@@ -1,0 +1,13 @@
+<!DOCTYPE hmtl>
+<hmtl>
+  <head>
+    <meta charset="utf-8">
+    <title>E1</title>
+  </head>
+  <body>
+      <h1>E1: 20 Questions</h1>
+      <h2>Question 1</h2>
+      <p>Q: This is the text for the question?</p>
+      <p>A: This is the answer for the question.</p>
+    </body>
+</hmtl>
