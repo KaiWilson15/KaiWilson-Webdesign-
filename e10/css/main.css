@@ -1,13 +1,17 @@
-body {
-  background-color: dodgerblue;
 }
 .black {
   width: 100px;
   height: 100px;
   background-color: #111111;
+  float: left;
 }
 .red {
   width: 100px;
   height: 100px;
   background-color: tomato;
+  float: left;
+}
+.class {
+  width: 800px;
+  display: flow-root;
 }
