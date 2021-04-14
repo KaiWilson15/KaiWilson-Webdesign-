@@ -2,16 +2,6 @@
   background:#F0F8FF;
 }
 
-.box{
-  position: absolute;
-  height: 400px;
-  width: 600px;
-  display: block;
-  margin: auto;
-  margin-top: 0;
-  background: none;
-}
-
 .body{
   position: absolute;
   height: 60%;
