@@ -1,87 +1,28 @@
-.body{
-    background: #F0F8FF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+.box{
+  background-color: #CEE2C9;
 }
-.house{
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: flex-end;
-}
-.front{
-  height:200px;
-  width:200px;
-  display: grid;
-  grid-template-columns: 3fr 2fr;
-  grid-auto-rows: 1.5fr 3fr;
-}
-.wall{
-  background: white;
-}
-.roof{
-  background: salmon;
-}
-.sidewall{
-  background: rgb(240,240,240)
-}
-.front.triangle{
-  border-bottom: 80px solid white;
-  border-left: 60px solid transparent;
+.pacman{
+  width: 0px;
+  height: 0px;
   border-right: 60px solid transparent;
+  border-top: 60px solid yellow;
+  border-left: 60px solid yellow;
+  border-bottom: 60px solid yellow;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius:
+  border-bottom-right-radius: 60px:
+  position:absolute;
+  top: 0px;
+  bottom: 0px;
 }
-.front-roof{
-  transform: skewX(-38deg)translatex(38%);
-}
-.garage{
-  display: grid;
-  height: 90px;
-  width: 80px;
-  grid-template-columns: 3fr 2fr;
-  grid-auto-rows: 1.5fr 3fr;
-  transform: translateX(40%);
-}
-.garage-triangle{
-  border-bottom: 80px solid white;
-  border-left: 32px solid transparent;
-}
-.garage.row{
-  transform: skewX(-47deg) translatex(33%);
-}
-.top-window{
-  width: 25px;
-  height: 35px;
-  display: inline-block;
-  background: lightblue;
-  border-radius: 100%
-  transform: translateY(-180%);
-}
-.middle-window{
-  display: flex;
-  justify-content: space-around;
-  width:100%;
-}
-.door{
-  content:
-  display: inline-block;
-  height: 30px;
-  width: 25px;
-  background: orange;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  transform: translateY(75%);
-}
-.middle-window:after,.middle-window:before{
-  content:''
-  display: inline-block;
-  height: 25px;
-  width: 25px;
-  background: red;
-}
-.front-wall{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+.eye1{
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 50%
+  position: absolute;
+  right: 0px;
+  left: 60px;
 }
